@@ -1,6 +1,6 @@
 {
   "name": "units-shake",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Simple library of unit conversion functions that can be individually imported as required",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,12 @@
   },
   "repository": "git+https://github.com/bytesnz/units-shake.git",
   "keywords": [
+    "unit conversion",
     "unit",
-    "conversion"
+    "conversion",
+    "speed",
+    "pressure",
+    "temperature"
   ],
   "author": "Jack Farley <bytesnz>",
   "license": "GPL-3.0",

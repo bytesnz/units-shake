@@ -23,23 +23,31 @@ as required (and minimised using tree shaking, hence the name).
 - degrees celsius (°C)
 - kelvin (K)
 
+# Usage
+All conversion functions are in the format ``${type}${fromUnit}to${toUnit}``.
+`${type}` the type of value it is, e.g. `pressure`, `temperature`, or `speed`.
+`${fromUnit}` is the unit you want to convert from.
+`${toUnit}` is the unit you want to convert to.
+The units are those that are listed above without alphabetic characters,
+e.g. `inHg`, `bar`, `kmh', and `C`
+
 ## Typescript Usage
 ```typescript
-import { degFtoC } from 'units-shake/ts/temperature';
+import { temperatureFtoC } from 'units-shake/ts/temperature';
 
-console.log(`72°F equals ${degFtoC(72)}°C`);
+console.log(`72°F equals ${temperatureFtoC(72)}°C`);
 ```
 
 ## ES6 Usage
 ```javascript
-import { degFtoC } from 'units-shake/temperature';
+import { temperatureFtoC } from 'units-shake/temperature';
 
-console.log(`72°F equals ${degFtoC(72)}°C`);
+console.log(`72°F equals ${temperatureFtoC(72)}°C`);
 ```
 
 ## ES5 Usage
 ```javascript
 var temp = require('units-shake/es5/temperature');
 
-console.log('72°F equals ' + degFtoC(72) + '°C');
+console.log('72°F equals ' + temperatureFtoC(72) + '°C');
 ```
