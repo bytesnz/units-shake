@@ -1,0 +1,31 @@
+{
+  "name": "units-shake",
+  "version": "0.1.0",
+  "description": "Simple library of unit conversion functions that can be individually imported as required",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "dev": "tsc -w -p tsconfig.es6.json",
+    "es5": "tsc -p tsconfig.es5.json"
+  },
+  "repository": "git+https://github.com/bytesnz/units-shake.git",
+  "keywords": [
+    "unit",
+    "conversion"
+  ],
+  "author": "Jack Farley <bytesnz>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bytesnz/units-shake/issues"
+  },
+  "homepage": "https://github.com/bytesnz/units-shake#readme",
+  "devDependencies": {
+    "ava": "^0.22.0"
+  },
+  "ava": {
+    "files": [
+      "tests/**/*.tests.js",
+      "es5/tests/**/*.tests.js"
+    ]
+  }
+}
