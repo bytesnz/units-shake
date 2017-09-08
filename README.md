@@ -23,9 +23,21 @@ as required (and minimised using tree shaking, hence the name).
 - degrees celsius (°C)
 - kelvin (K)
 
+### Length
+- meters (m)
+- kilometers (km)
+- millimeters (mm)
+- miles (mi)
+- yards (yd)
+- feet (ft)
+- feet and inches (f'i")
+- inches (in)
+- mils (mil)
+
 # Usage
 All conversion functions are in the format ``${type}${fromUnit}to${toUnit}``.
-`${type}` the type of value it is, e.g. `pressure`, `temperature`, or `speed`.
+`${type}` the type of value it is, e.g. `pressure`, `temperature`, `speed`, or
+`length`.
 `${fromUnit}` is the unit you want to convert from.
 `${toUnit}` is the unit you want to convert to.
 The units are those that are listed above without alphabetic characters,

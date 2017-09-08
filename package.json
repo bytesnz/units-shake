@@ -1,6 +1,6 @@
 {
   "name": "units-shake",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Simple library of unit conversion functions that can be individually imported as required",
   "main": "index.js",
   "scripts": {

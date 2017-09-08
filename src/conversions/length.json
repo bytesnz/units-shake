@@ -1,0 +1,61 @@
+{
+  "type": "length",
+  "siUnit": {
+    "label": "meters",
+    "unit": "m"
+  },
+  "units": [
+    {
+      "label": "kilometers",
+      "unit": "km",
+      "inOneSi": 0.001
+    },
+    {
+      "label": "millimeters",
+      "unit": "mm",
+      "inOneSi": 1000
+    },
+    {
+      "label": "miles",
+      "unit": "mi",
+      "inOneSi": 0.00062137119
+    },
+    {
+      "label": "yards",
+      "unit": "yd",
+      "inOneSi": 1.0936133
+    },
+    {
+      "label": "feet",
+      "unit": "ft",
+      "inOneSi": 3.2808399
+    },
+    {
+      "label": ["feet","inches"],
+      "unit": "f'i\"",
+      "inOneSi": [3, 3.3700788]
+    },
+    {
+      "label": "inches",
+      "unit": "in",
+      "inOneSi": 39.370079
+    },
+    {
+      "label": "mils",
+      "unit": "mil",
+      "inOneSi": 39370.079
+    }
+  ],
+  "testValues": [
+    {
+      "km": 1,
+      "m": 1000,
+      "mm": 1000000,
+      "mi": 0.6214,
+      "yd": 1093.6,
+      "ft": 3280.8,
+      "in": 39370,
+      "mil": 39370000
+    }
+  ]
+}
